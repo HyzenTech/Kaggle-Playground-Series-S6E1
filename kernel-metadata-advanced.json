@@ -1,0 +1,26 @@
+{
+    "id": "muhammadhafizy/s6e1-advanced-blend-top3",
+    "title": "S6E1 | Advanced Blend | Top 3 Target",
+    "code_file": "blend_advanced_top3.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": "false",
+    "enable_gpu": "false",
+    "enable_internet": "false",
+    "competition_sources": [
+        "playground-series-s6e1"
+    ],
+    "kernel_sources": [
+        "muhammadhafizy/student-scores-from-lightgbm-to-senet",
+        "muhammadhafizy/ps-s6e1-hb13g",
+        "muhammadhafizy/s6e1-hill-climbing-ridgecv-lb-8-54853"
+    ],
+    "dataset_sources": [],
+    "keywords": [
+        "blending",
+        "ensemble",
+        "advanced",
+        "power mean",
+        "rank average"
+    ]
+}
