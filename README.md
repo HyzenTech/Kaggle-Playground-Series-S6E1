@@ -8,14 +8,20 @@
 |---------|---------|----------|------|
 | v5 | 8.71 | 8.66 | #260 |
 
-## 📁 Files
+## 📁 Repository Structure
 
-| File | Description |
-|------|-------------|
-| `professional_solution.ipynb` | Main Kaggle notebook with full documentation |
-| `run_aggressive_v5.py` | Local Python script for v5 solution |
-| `exact_v5_kaggle.ipynb` | Minimal notebook version of v5 |
-| `submission_v5.csv` | Submission file from v5 |
+```
+├── Dataset/
+│   ├── train.csv
+│   ├── test.csv
+│   └── sample_submission.csv
+├── Code/
+│   ├── professional_solution.ipynb    # Main Kaggle notebook
+│   ├── exact_v5_kaggle.ipynb          # Minimal v5 notebook
+│   ├── run_aggressive_v5.py           # Local Python script
+│   └── submission_v5.csv              # Submission file
+└── README.md
+```
 
 ## 🔑 Key Techniques
 
@@ -28,13 +34,14 @@
 ## 🚀 Quick Start
 
 ### Run on Kaggle
-1. Upload `professional_solution.ipynb`
+1. Upload `Code/professional_solution.ipynb`
 2. Add the [original dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset)
 3. Enable GPU accelerator
 4. Run all cells
 
 ### Run Locally
 ```bash
+cd Code
 python run_aggressive_v5.py
 ```
 
